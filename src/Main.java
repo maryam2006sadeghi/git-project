@@ -10,7 +10,7 @@ public class Main {
         font = new Font("Sitka", Font.PLAIN, 16);
 
         // Create and configure the main frame
-        JFrame frame = new JFrame("فرم نظرسنجی");
+        JFrame frame = new JFrame("Survey form");
         frame.setSize(600, 600);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -23,12 +23,12 @@ public class Main {
         panel.setBounds(0, 0, 600, 600);
 
         // Create title label
-        JLabel title = new JLabel("فرم نظرسنجی");
+        JLabel title = new JLabel("Survey form");
         title.setHorizontalAlignment(JLabel.CENTER);
         title.setBounds(10, 10, 100, 20);
 
         // Create start button
-        JButton startButton = new JButton("شروع!");
+        JButton startButton = new JButton("Start!");
         startButton.setHorizontalAlignment(JLabel.CENTER);
         startButton.setBounds(10, 40, 100, 20);
 
