@@ -6,6 +6,8 @@ import java.awt.*;
 public class thankYouPage {
 
     public void create(JFrame frame) {
+        Font font = null;
+        font = new Font("Sitka", Font.PLAIN, 16);
 
         // Create and configure the panel
         JPanel panel = new JPanel();
@@ -24,6 +26,8 @@ public class thankYouPage {
         // Add panel to the frame
         frame.add(panel);
 
+        // Set font
+        thankYouLabel.setFont(font);
 
     }
 

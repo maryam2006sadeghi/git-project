@@ -6,6 +6,9 @@ import java.awt.*;
 public class questionsPage {
 
     public void create(JFrame frame) {
+        Font font = null;
+        font = new Font("Sitka", Font.PLAIN, 16);
+
         // Create and configure the panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
@@ -173,6 +176,13 @@ public class questionsPage {
         panel.add(nextButton);
 
         panel.add(Box.createRigidArea(new Dimension(20, 10)));
+
+        // Set font
+        question1.setFont(font);
+        question2.setFont(font);
+        question3.setFont(font);
+        question4.setFont(font);
+        nextButton.setFont(font);
 
         // Add panel to the frame
         frame.add(panel);

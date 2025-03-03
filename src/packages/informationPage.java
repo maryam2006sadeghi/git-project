@@ -6,6 +6,9 @@ import java.awt.*;
 public class informationPage {
 
     public void create(JFrame frame) {
+        Font font = null;
+        font = new Font("Sitka", Font.PLAIN, 16);
+
         // Create the main panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);

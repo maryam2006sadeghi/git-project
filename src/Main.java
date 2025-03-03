@@ -6,6 +6,9 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
+        Font font = null;
+        font = new Font("Sitka", Font.PLAIN, 16);
+
         // Create and configure the main frame
         JFrame frame = new JFrame("فرم نظرسنجی");
         frame.setSize(600, 600);
@@ -52,6 +55,11 @@ public class Main {
             frame.revalidate();
             frame.repaint();
         });
+
+        //Set font
+        frame.setFont(font);
+        title.setFont(font);
+        startButton.setFont(font);
 
         // Make the frame visible
         frame.setVisible(true);
